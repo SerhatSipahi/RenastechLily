@@ -1,4 +1,4 @@
-package Day_1Intro;
+package Day_21_MethodsAndMethodOverload.Day_1Intro;
 
 public class HelloWorld {
 
