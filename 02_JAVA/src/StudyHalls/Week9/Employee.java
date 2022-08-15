@@ -37,7 +37,7 @@ public class Employee {
         this.field = field;
     }
 
-    public void changeSalary(int salarys)
+    public void changeSalary(int salary)
     {
         // 80000 ,$
         String[] forSplit = Salary.split(" ");
