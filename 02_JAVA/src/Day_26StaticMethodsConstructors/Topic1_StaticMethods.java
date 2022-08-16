@@ -1,8 +1,9 @@
-package Day_25ClassesandObjects;
+package Day_26StaticMethodsConstructors;
+
+import MyUtil.StaticTestClass;
 
 
-
-public class Topic1_StaticVariables {
+public class Topic1_StaticMethods {
     //Static variables
 //
 // When a variable is declared as static, then a single copy of variable is created
@@ -34,25 +35,25 @@ public class Topic1_StaticVariables {
     //local variable: variables that are declared in a block
     //instance variables: declared outside the blocks
     //Static variables : declared outside the blocks with a static keyword
-    static int age = 10;
-    int b = 14;
-
 
     public static void main(String[] args) {
-        Topic1_StaticVariables newtopic = new Topic1_StaticVariables();
 
-        System.out.println(newtopic.b);
-        System.out.println("The value of age: "+age);
 
-        Topic2_newCLass Ob1 = new Topic2_newCLass();
 
-        System.out.println("The name is: "+Topic2_newCLass.Firstname);
-        System.out.println("The Last Name is: "+Ob1.Lastname);
+        System.out.println("Print Static int variable: "+StaticTestClass.Name);
+        System.out.println("Print the Static num: "+StaticTestClass.num);
+        //System.out.println("Print the Non-static Name2: "+StaticTestClass.Name2);
 
+        System.out.println("_____________________________________________________");
+
+        StaticTestClass obj = new StaticTestClass();
+
+        System.out.println("Print non-static Name2: "+obj.Name2);
+        System.out.println("Print non-static num2: "+obj.num2);
+
+        System.out.println("Print Static Name: "+obj.Name);
+
+        System.out.println("Print Static num2: "+obj.num);
 
     }
-
-
-
-
 }

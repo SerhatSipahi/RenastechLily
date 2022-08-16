@@ -2,8 +2,6 @@ package Day_20_MethodswithReturnParams;
 
 import MyUtil.TestCLassforPublic;
 
-import java.util.*;
-
 
 public class Toipc5_UtilTest {
 
