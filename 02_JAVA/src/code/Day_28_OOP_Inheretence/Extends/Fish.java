@@ -1,4 +1,4 @@
-package code.Extends.Extends;
+package code.Day_28_OOP_Inheretence.Extends;
 
 public class Fish extends Animal {
 //since we use extends keyword to get parent class for bird class (child class)

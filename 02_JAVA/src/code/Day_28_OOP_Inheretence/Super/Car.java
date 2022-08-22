@@ -1,4 +1,4 @@
-package code.Extends.Super;
+package code.Day_28_OOP_Inheretence.Super;
 
 public class Car {
 

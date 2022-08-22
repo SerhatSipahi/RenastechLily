@@ -1,4 +1,4 @@
-package code.Extends.Extends;
+package code.Day_28_OOP_Inheretence.Extends;
 
 public class TESTClass {
 
