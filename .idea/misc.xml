@@ -4,11 +4,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/03_SeleniumTestNG/pom.xml" />
-        <option value="$PROJECT_DIR$/04_CucumberBDD/pom.xml" />
-        <option value="$PROJECT_DIR$/05_DATABASE_JDBC/pom.xml" />
         <option value="$PROJECT_DIR$/06_API/pom.xml" />
-        <option value="$PROJECT_DIR$/07_MOBILE/pom.xml" />
       </list>
     </option>
   </component>
